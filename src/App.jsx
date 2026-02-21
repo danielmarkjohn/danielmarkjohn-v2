@@ -5,12 +5,13 @@ import Summary from "./components/sections/Summary";
 import Skills from "./components/sections/Skills";
 import Experience from "./components/sections/Experience";
 import Projects from "./components/sections/Projects";
+import MediumArticles from "./components/sections/MediumArticles";
 import Metrics from "./components/sections/Metrics";
 import Blog from "./components/sections/Blog";
 import Education from "./components/sections/Education";
 import Contact from "./components/sections/Contact";
 
-export default function App(){
+export default function App() {
   return (
     <div className="min-h-screen bg-white text-slate-900">
       <main className="max-w-6xl mx-auto px-4">
@@ -27,22 +28,24 @@ export default function App(){
         <div className="py-12">
           <Projects />
         </div>
-        <div className="bg-slate-50 -mx-4 px-4 py-12">
+
+        <div className="py-12">
           <Metrics />
         </div>
         <div className="py-12">
-          <Blog />
-        </div>
-        <div className="bg-slate-50 -mx-4 px-4 py-12">
           <Education />
         </div>
-        <div className="py-12 pb-16">
+        <div className="bg-slate-50 -mx-4 px-4 py-12">
           <Contact />
+        </div>
+        <div className="bg-slate-50 -mx-4 px-4 py-12">
+          <MediumArticles />
         </div>
       </main>
     </div>
   )
 }
+
 
 
 

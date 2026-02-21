@@ -1,24 +1,25 @@
 
 import React from "react";
-
-const posts = [
-  {title:"Designing Scalable Microfrontends", date:"2024-11-10", excerpt:"Patterns and pitfalls when designing multi-tenant editorial frontends."},
-  {title:"CI/CD for Large Teams", date:"2023-06-01", excerpt:"Practical pipeline patterns for stability and speed."}
-];
+import { ExternalLink } from "lucide-react";
+import { config } from "../../data/config";
 
 export default function Blog(){
   return (
-    <section id="blog" className="py-12" aria-labelledby="blog-title">
-      <h2 id="blog-title" className="text-2xl font-semibold mb-6">Articles</h2>
-      <div className="grid md:grid-cols-2 gap-4">
-        {posts.map(p=> (
-          <article key={p.title} className="p-4 bg-white/60 dark:bg-slate-800/60 rounded shadow">
-            <h3 className="font-semibold">{p.title}</h3>
-            <div className="text-xs text-muted">{p.date}</div>
-            <p className="mt-2 text-sm">{p.excerpt}</p>
-          </article>
+    <section id="blog" aria-labelledby="blog-title">
+      <h2 id="blog-title" className="text-3xl font-bold mb-6">Latest Articles</h2>
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {config.articles.map((article, i) => (
+          <a key={i} href={article.link} target="_blank" rel="noopener" className="block p-6 bg-white rounded-lg shadow-sm border border-slate-200 hover:shadow-md hover:border-primary transition-all">
+            <div className="text-xs text-muted mb-2">{article.date}</div>
+            <h3 className="text-lg font-semibold mb-2">{article.title}</h3>
+            <p className="text-sm text-slate-600 mb-3">{article.excerpt}</p>
+            <div className="flex items-center gap-1 text-primary text-sm">
+              Read more <ExternalLink size={14} />
+            </div>
+          </a>
         ))}
       </div>
     </section>
   )
 }
+
