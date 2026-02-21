@@ -6,8 +6,6 @@ import Skills from "./components/sections/Skills";
 import Experience from "./components/sections/Experience";
 import Projects from "./components/sections/Projects";
 import MediumArticles from "./components/sections/MediumArticles";
-import Metrics from "./components/sections/Metrics";
-import Blog from "./components/sections/Blog";
 import Education from "./components/sections/Education";
 import Contact from "./components/sections/Contact";
 
@@ -27,10 +25,6 @@ export default function App() {
         </div>
         <div className="py-12">
           <Projects />
-        </div>
-
-        <div className="py-12">
-          <Metrics />
         </div>
         <div className="py-12">
           <Education />
