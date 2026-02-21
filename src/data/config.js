@@ -10,10 +10,10 @@ export const config = {
     linkedin: "https://linkedin.com/in/danielmarkjohn",
     medium: "https://medium.com/@danielmarkj",
     topmate: "https://topmate.io/danielmarkjohn/754878?utm_source=public_profile&utm_campaign=danielmarkjohn",
-    resumeUrl: "/resume.pdf"
+    resumeUrl: "https://drive.google.com/file/d/18v2gclfTHWB6ZD0enY7ZdpFb1k1OGtNe/view?usp=sharing"
   },
 
-  summary: "Close to a decade of experience in development of various Enterprise grade applications with MEAN, MERN and Other Traditional Frameworks. Driving through Strong command for Frameworks, Core JS, TypeScript, SDLC, APMs and Architectural methodologies.",
+  summary: "Close to a decade of experience in development of various Enterprise grade applications with MEAN, MERN and Other Traditional Frameworks. Modern DevOps Operators like AWS and Azure with Microservice Architectures and real-time APM Tracking, Driving through Strong command for Frameworks, Technical Leadership, DevOps Practices, OWASP and Security Practices, SDLC, APMs, Architecture Design and a touch of AI Integrations like OpenAI/LangChain API's, RAG Integration to Legacy Systems and Model Inference. ",
 
   experience: [
     {
@@ -31,7 +31,7 @@ export const config = {
         "Developed reusable components with Rollup and NPM registry for Project wide adoption",
         "Fix Security Issues like BDH, Twistlock and Coverity"
       ],
-      environment: ["ReactJS", "HTML5", "CSS3", "SASS", "NodeJS", "MySQL", "Bash", "TypeScript", "JavaScript", "GitLab", "Jenkins", "CI/CD", "GitHub Actions", "AWS", "Octopus", "Micro Frontends"]
+      environment: ["ReactJS", "GraphQL", "CSS3", "OpenSearch", "NodeJS", "MySQL", "Terraform", "TypeScript", "JavaScript", "GitLab", "Jenkins", "CI/CD", "GitHub Actions", "AWS", "Octopus", "Micro Frontends"]
     },
     {
       company: "Concentrix Catalyst",
@@ -119,6 +119,7 @@ export const config = {
     "Backend": ["Node.js", "Express", "NestJS", "GraphQL", "REST APIs", "Microservices"],
     "Database": ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
     "DevOps & Cloud": ["AWS", "Azure", "Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Bamboo", "Octopus", "CI/CD"],
+    "AI": ["OpenAI/Gemini APIs", "LangChain", "RAG", "Model Inference, Vector DBs", "LLMs"],
     "Mobile": ["Ionic", "React Native", "PWA", "Flutter"],
     "Architecture": ["Microfrontends", "System Design", "Event-Driven", "Module Federation", "Monorepos"],
     "Tools & Others": ["Git", "NPM Registry", "Nginx", "Apache", "Prometheus", "New Relic", "Storybook", "AGILE/SCRUM"]

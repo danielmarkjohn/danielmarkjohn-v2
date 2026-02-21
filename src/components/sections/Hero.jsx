@@ -31,17 +31,6 @@ export default function Hero(){
             </a>
           </div>
         </div>
-        <div className="rounded-2xl p-8 shadow-2xl bg-gradient-to-br from-primary/5 via-accent/5 to-purple-500/5 border border-slate-200">
-          <p className="text-sm font-medium text-muted uppercase tracking-wide">Key Metrics</p>
-          <ul className="mt-6 grid grid-cols-2 gap-6">
-            {config.metrics.map(m => (
-              <li key={m.label} className="p-4 bg-white rounded-xl shadow-sm border border-slate-100">
-                <strong className="text-3xl font-bold text-primary">{m.value}</strong>
-                <p className="text-sm text-muted mt-1">{m.label}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
       </div>
     </section>
   )
