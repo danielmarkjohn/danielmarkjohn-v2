@@ -177,42 +177,9 @@ export const config = {
       location: "Bangalore, India"
     },
     {
-      degree: "Pre-University Course (PUC)",
+      degree: "Schooling (ICSE/ISC)",
       institution: "Bishop Cotton Boys' School",
-      location: "India"
-    },
-    {
-      degree: "Secondary School (ICSE/ISC)",
-      institution: "Bishop Cotton Boys' School",
-      location: "India"
+      location: "Bangalore, India"
     }
   ],
-
-  metrics: [
-    { label: "Records migrated", value: "300M+" },
-    { label: "Team size led", value: "15+" },
-    { label: "Years experience", value: "9+" },
-    { label: "Projects delivered", value: "30+" }
-  ],
-
-  articles: [
-    {
-      title: "Building Scalable Microfrontends with Module Federation",
-      excerpt: "A deep dive into implementing microfrontend architecture at enterprise scale for editorial brands.",
-      link: "https://medium.com/@danielmarkj",
-      date: "2024"
-    },
-    {
-      title: "Optimizing React Performance: Beyond the Basics",
-      excerpt: "Advanced techniques for improving React app performance in production environments with 300M+ records.",
-      link: "https://medium.com/@danielmarkj",
-      date: "2024"
-    },
-    {
-      title: "DevOps Best Practices for Modern Web Apps",
-      excerpt: "Lessons learned from implementing CI/CD pipelines at scale with Jenkins, GitHub Actions, and Azure.",
-      link: "https://medium.com/@danielmarkj",
-      date: "2023"
-    }
-  ]
 };

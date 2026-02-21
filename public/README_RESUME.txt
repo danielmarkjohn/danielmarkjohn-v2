@@ -1,1 +1,0 @@
-Place your resume PDF here as 'resume.pdf' to enable download link from the site. You said you'll attach it yourself.

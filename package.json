@@ -1,5 +1,45 @@
 {
   "name": "daniel-portfolio-v2",
+  "author": "Daniel Mark John",
+  "license": "MIT",
+  "homepage": "https://danielmarkjohn.github.io/daniel-portfolio-v2/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielmarkjohn/daniel-portfolio-v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielmarkjohn/daniel-portfolio-v2/issues"
+  },
+  "keywords": [
+    "portfolio",
+    "react",
+    "vite",
+    "tailwind",
+    "framer-motion",
+    "lucide-react"
+  ],
+  "description": "A portfolio website for Daniel Mark John",
+  "main": "index.html",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": "20.x"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "contributors": [
+    {
+      "name": "Daniel Mark John",
+      "email": "danielmarkjohn1@gmail.com",
+      "url": "https://danielmarkjohn.github.io/daniel-portfolio-v2/",
+      "role": "lead"
+    }
+  ],
+  "volta": {
+    "node": "20.x"
+  },
   "private": true,
   "version": "2.0.0",
   "type": "module",
